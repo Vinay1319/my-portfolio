@@ -23,7 +23,7 @@ const Projects = () => {
     {
       id: 3,
       src: port,
-      href: 'https://github.com/Vinay1319/Hotelio',
+      href: 'https://github.com/Vinay1319/my-portfolio',
       description: 'Built a portfolio for myself using ReactJS and Tailwind CSS.'
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
         <div className='pb-8'>
           <div className='inline-flex items-center border-b-4 border-gray-500'>
             <p className='text-4xl font-bold'>My Projects</p>
-            <BsPersonWorkspace className='ml-2 text-4xl' />
+            <BsPersonWorkspace className='ml-4 text-4xl' />
           </div>
           <p className='py-6'>Check out some of my work here</p>
         </div>

@@ -116,18 +116,18 @@ const Education = () => {
           {progressData.map((progress, index) => (
             <div key={index} className="flex-1 min-w-[45%] m-2">
               <div className="mb-2 flex justify-between items-center">
-                <h3 className="text-sm font-semibold text-gray-800 dark:text-white">{progress.title}</h3>
-                <span className="text-sm text-gray-800 dark:text-white">{progress.percentage}%</span>
+                <h3 className="text-sm font-semibold text-white">{progress.title}</h3>
+                <span className="text-sm text-white">{progress.percentage}%</span>
               </div>
               <div
-                className="flex w-full h-2 bg-gray-700 rounded-full overflow-hidden dark:bg-neutral-700"
+                className="flex w-full h-2 rounded-full overflow-hidden bg-neutral-700"
                 role="progressbar"
                 aria-valuenow={progress.percentage}
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
                 <div
-                  className="flex flex-col justify-center rounded-full overflow-hidden bg-blue-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500"
+                  className="flex flex-col justify-center rounded-full overflow-hidden text-xs text-white text-center whitespace-nowrap transition duration-500 bg-blue-500"
                   style={{ width: `${progress.percentage}%` }}
                 ></div>
               </div>

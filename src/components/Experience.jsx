@@ -88,7 +88,7 @@ const Experience = () => {
         <div className='pb-8'>
           <div className='inline-flex items-center border-b-4 border-gray-500'>
             <p className='text-4xl font-bold'>Experience</p>
-            <GoGraph className='ml-2 text-4xl' />
+            <GoGraph className='ml-4 text-4xl' />
           </div>
           <p className='py-6'>These are the technologies I've worked with</p>
         </div>
