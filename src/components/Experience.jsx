@@ -9,8 +9,10 @@ import mongo from '../assets/Mongo.png';
 import node from '../assets/node js.png';
 import rct from '../assets/React.png';
 import sql from '../assets/sql.jpg';
+import tail from '../assets/tailwind.png'
 import spring from '../assets/spring.png';
 import { GoGraph } from "react-icons/go";
+
 
 const Experience = () => {
   const techs = [
@@ -28,54 +30,60 @@ const Experience = () => {
     },
     {
       id: 3,
+      src: tail,
+      title: 'Tailwind CSS',
+      style: 'shadow-blue-500',
+    },
+    {
+      id: 4,
       src: java,
       title: 'JAVA',
       style: 'shadow-orange-500',
     },
     {
-      id: 4,
+      id: 5,
       src: js,
       title: 'JavaScript',
       style: 'shadow-yellow-500',
     },
     {
-      id: 5,
+      id: 6,
       src: c,
       title: 'C',
       style: 'shadow-blue-500',
     },
     {
-      id: 6,
+      id: 7,
       src: aws,
       title: 'AWS',
       style: 'shadow-yellow-500',
     },
     {
-      id: 7,
+      id: 8,
       src: mongo,
       title: 'MongoDB',
       style: 'shadow-green-500',
     },
     {
-      id: 8,
+      id: 9,
       src: node,
       title: 'Node Js',
       style: 'shadow-green-500',
     },
     {
-      id: 9,
+      id: 10,
       src: rct,
       title: 'React',
       style: 'shadow-blue-600',
     },
     {
-      id: 10,
+      id: 11,
       src: sql,
       title: 'My SQL',
       style: 'shadow-blue-500',
     },
     {
-      id: 11,
+      id: 12,
       src: spring,
       title: 'Spring Boot',
       style: 'shadow-green-500',
