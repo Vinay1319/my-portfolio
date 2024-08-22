@@ -37,7 +37,7 @@ const Home = () => {
             </div>
           </div>
           <div className='flex justify-center items-center'>
-            <img src={Mypic} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full' style={{ background: 'transparent' }} />
+            <img src={Mypic} alt='my profile' className='rounded-2xl mx-auto w-1/2 md:w-2/3' style={{ background: 'transparent' }} />
           </div>
         </div>
       </div>

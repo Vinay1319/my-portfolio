@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGraduationCap } from 'react-icons/fa';
 import oracle from '../assets/oracle.png';
+import aws from '../assets/cp.png'
 import redhat from '../assets/redhat.png';
 import { TbCertificate } from "react-icons/tb";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -30,6 +31,11 @@ const Education = () => {
       id: 2,
       src: oracle,
       href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=F8A8ADD49EB9D75A7C245CBCC889C65F9182ACC0327AA9CC9D77ECFDE5EF14E9',
+    },
+    {
+      id: 3,
+      src: aws,
+      href: 'https://www.credly.com/badges/2d031140-2f3a-4235-ad66-cfd4e2036410/public_url',
     },
   ];
 
