@@ -10,6 +10,7 @@ import klu from '../assets/klu.jpg';
 const Education = () => {
   const progressData = [
     { title: 'Java', percentage: 90 },
+    { title: 'C', percentage: 85 },
     { title: 'JavaScript', percentage: 75 },
     { title: 'Cyber Security', percentage: 75 },
     { title: 'Full Stack Development', percentage: 80 },
@@ -60,7 +61,7 @@ const Education = () => {
     { title: 'College Name', value: 'KL University' },
     { title: 'Branch', value: 'B.Tech,CSE' },
     { title: 'Stream', value: 'Cyber Security & Blockchain' },
-    { title: 'CGPA', value: '8.57' },
+    { title: 'CGPA', value: '8.87' },
     { title: 'Year', value: '2021-2025' },
   ];
 
