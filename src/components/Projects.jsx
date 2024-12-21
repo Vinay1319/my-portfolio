@@ -3,8 +3,8 @@ import FlyAway from '../assets/portfolio/flyAway.png';
 import hotelio from '../assets/portfolio/hotelio.jpg';
 import port from '../assets/portfolio/portfolio.png';
 import ep from '../assets/portfolio/epproject.png';
+import spotify from '../assets/portfolio/spotify_clone.png'
 import { BsPersonWorkspace } from "react-icons/bs";
-
 
 const Projects = () => {
   const proj = [
@@ -31,6 +31,12 @@ const Projects = () => {
       src: ep,
       href: 'https://github.com/Vinay1319/EP-Project',
       description: 'Engineered with enterprise programming frameworks, Aurora Aviations flight booking system streamlines the process of reserving and managing bookings efficiently.'
+    },
+    {
+      id: 5,
+      src: spotify,
+      href: 'https://github.com/Vinay1319/Spotify-Clone',
+      description: 'A web application built using the MERN stack and Tailwind CSS, mimicking the core functionalities of Spotify. It includes user authentication with Passport JWT, playlist management, and music streaming features. This project demonstrates expertise in full-stack development and seamless user experience.'
     },
   ];
 

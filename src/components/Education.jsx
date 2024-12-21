@@ -7,6 +7,7 @@ import { TbCertificate } from "react-icons/tb";
 import { FaArrowRightLong } from "react-icons/fa6";
 import klu from '../assets/klu.jpg';
 
+
 const Education = () => {
   const progressData = [
     { title: 'Java', percentage: 90 },
@@ -16,6 +17,7 @@ const Education = () => {
     { title: 'Full Stack Development', percentage: 80 },
     { title: 'HTML', percentage: 90 },
     { title: 'CSS', percentage: 80 },
+    { title: 'Spring Boot', percentage: 75 },
     { title: 'React JS', percentage: 80 },
     { title: 'Node JS', percentage: 80 },
     { title: 'Mongo DB', percentage: 70 },
@@ -61,10 +63,28 @@ const Education = () => {
     { title: 'College Name', value: 'KL University' },
     { title: 'Branch', value: 'B.Tech,CSE' },
     { title: 'Stream', value: 'Cyber Security & Blockchain' },
-    { title: 'CGPA', value: '8.87' },
+    { title: 'CGPA', value: '8.93' },
     { title: 'Year', value: '2021-2025' },
   ];
 
+  function Personal(){
+    return(
+      <div className='mt-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
+              {personalInfo.map((info, index) => (
+                <div key={index} className="flex items-center mb-4">
+                  <FaArrowRightLong className='mr-2 text-gray-400' /> {/* Arrow icon */}
+                  <div className="flex items-center gap-2">
+                    <strong className='text-base'>{info.title}:</strong>
+                    <span className="text-base text-gray-400">{info.value}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+    )
+  }
+  
   return (
     <div name='about' className='w-full bg-gradient-to-b from-gray-800 to-black text-white'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full min-h-screen'>
@@ -75,20 +95,8 @@ const Education = () => {
           As a cybersecurity enthusiast with a passion for full-stack web development. My goal is to create innovative and secure web applications that make a positive impact in the world. I am dedicated to staying up-to-date with the latest technologies and trends, and I am always eager to learn and grow in my field. I am committed to delivering high-quality work that exceeds expectations. My passion for cybersecurity and web development drives me to constantly strive for excellence, and I am excited to see where my journey will take me next.
         </p>
         
-        <div className='mt-10'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
-            {personalInfo.map((info, index) => (
-              <div key={index} className="flex items-center mb-4">
-                <FaArrowRightLong className='mr-2 text-gray-400' /> {/* Arrow icon */}
-                <div className="flex items-center gap-2">
-                  <strong className='text-base'>{info.title}:</strong>
-                  <span className="text-base text-gray-400">{info.value}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
+        
+        <Personal />
         
 
         <div className='mt-20 flex flex-row'>
