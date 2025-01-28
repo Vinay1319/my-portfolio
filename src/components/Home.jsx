@@ -1,5 +1,5 @@
 import React from 'react';
-import Mypic from '../assets/myPic.jpg';
+import Mypic from '../assets/my pic.jpg';
 import { MdOutlineArrowRight } from 'react-icons/md';
 import Resume from '../assets/MyResume.pdf';
 import SocialLinks from './SocialLinks';
