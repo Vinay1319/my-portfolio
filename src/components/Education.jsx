@@ -52,7 +52,7 @@ const Education = () => {
     { title: 'Name', value: 'Vinay Pati' },
     { title: 'Age', value: 20 },
     { title: 'Gender', value: 'Male' },
-    { title: 'Email', value: 'iamvinayy100@gmail.com' },
+    { title: 'Email', value: 'pativinay.13@gmail.com' },
     { title: 'From', value: 'Hyderabad' },
     { title: 'Language', value: 'English, Telugu, Hindi' },
     { title: 'Work', value: 'Student' },
